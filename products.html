@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MyShop — Products</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MyShop</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="whishlist.html">Wishlist ❤️</a>
+        <a href="cart.html">Cart 🛒</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="search-box" type="search" placeholder="Search products..." oninput="searchProducts()" />
+      <select id="sort-select" onchange="sortProducts()">
+        <option value="featured">Featured</option>
+        <option value="price-low">Price: Low → High</option>
+        <option value="price-high">Price: High → Low</option>
+        <option value="name">Name: A → Z</option>
+      </select>
+    </section>
+
+    <section>
+      <div id="product-list" class="products grid"></div>
+      <div id="no-products" class="empty-message" style="display:none">No products found.</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 MyShop</p>
+    </div>
+  </footer>
+</body>
+</html>

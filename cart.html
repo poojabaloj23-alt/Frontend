@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cart — MyShop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MyShop</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="whishlist.html">Wishlist</a>
+        <a href="cart.html" class="active">Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container cart-container">
+    <h2>Your Cart</h2>
+    <section id="cart-items"></section>
+    <div id="empty-cart" class="empty-message" style="display:none">Your cart is empty.</div>
+
+    <aside class="cart-summary" id="cart-summary" style="display:none">
+      <h3>Summary</h3>
+      <div class="summary-item"><span>Subtotal</span><span id="subtotal">$0.00</span></div>
+      <div class="summary-item"><span>Shipping</span><span id="shipping">$0.00</span></div>
+      <div class="summary-item"><span>Tax</span><span id="tax">$0.00</span></div>
+      <div class="summary-total"><strong>Total</strong><strong id="total">$0.00</strong></div>
+      <button class="btn btn-checkout" onclick="proceedToCheckout()">Checkout</button>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 MyShop</p>
+    </div>
+  </footer>
+</body>
+</html>
