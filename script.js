@@ -6,7 +6,11 @@ const products = [
   { id:3, name:"Sony WH-1000XM4 Headphones", price:349, image:"https://images.unsplash.com/photo-1510070009289-b5bc34383727?auto=format&fit=crop&w=800&q=80", description:"Sony noise cancelling headphones" },
   { id:4, name:"Samsung 4K Smart TV", price:799, image:"https://tse1.mm.bing.net/th/id/OIP.u10XKPhTk59nswaOskJS0AHaE8?pid=Api&P=0&h=180", description:"Samsung UHD Smart TV 55\"" },
   { id:5, name:"Gaming Mouse RGB", price:49, image:"https://tse2.mm.bing.net/th/id/OIP.lER3YZebzgAqm9sp2AA1kwHaHa?pid=Api&P=0&h=180", description:"Ergonomic gaming mouse with RGB" },
-  { id:6, name:"Canon DSLR Camera", price:599, image:"https://tse3.mm.bing.net/th/id/OIP.W1NckwfPbq4yKyKBGOZ_NgHaHa?pid=Api&P=0&h=180", description:"Canon EOS series DSLR" }
+  { id:6, name:"Canon DSLR Camera", price:599, image:"https://tse3.mm.bing.net/th/id/OIP.W1NckwfPbq4yKyKBGOZ_NgHaHa?pid=Api&P=0&h=180", description:"Canon EOS series DSLR" },
+  { id:7, name:"ear buds", price:899, image:"https://tse1.mm.bing.net/th/id/OIP.sAhg1nUyzhy8GssySD3_DAHaIC?pid=Api&P=0&h=180", description:"Wireless ear buds with charging case" },
+  { id:8, name:"chair", price:568, image:"https://tse3.mm.bing.net/th/id/OIP.K7xcTHl-nGjUnD9ZOpePFgHaHa?pid=Api&P=0&h=180", description:"Erogonomic office chair" },
+  { id:9, name:"Refrigerator", price:1988, image:"https://tse4.mm.bing.net/th/id/OIP.I8cgv6y1f1R2OcGOHwo9GQHaHa?pid=Api&P=0&h=180", description:"Double door fridge with freezer" },
+  { id:10, name:"cooler", price:5000, image:"https://tse1.mm.bing.net/th/id/OIP.mdTCMuCQzw-WX5pnefHIsQHaHa?pid=Api&P=0&h=180", description:"High capacity air cooler" }
 ];
 
 let filtered = [...products];
@@ -243,4 +247,5 @@ document.addEventListener('DOMContentLoaded', ()=>{
   }
   if(el('cart-items')) updateCartDisplay();
   if(el('wishlist-items')) updateWishlistDisplay();
+
 });
