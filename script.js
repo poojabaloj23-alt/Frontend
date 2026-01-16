@@ -3,7 +3,7 @@
 const products = [
   { id:1, name:"iPhone 14 Pro", price:999, image:"https://tse3.mm.bing.net/th/id/OIP.HXxAENZSawEIUNTRZZHLQwHaJM?pid=Api&P=0&h=180", description:"Apple iPhone 14 Pro — 128GB" },
   { id:2, name:"MacBook Air M2", price:1299, image:"https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80", description:"Apple MacBook Air with M2 chip" },
-  { id:3, name:"Sony WH-1000XM4 Headphones", price:349, image:"https://images.unsplash.com/photo-1510070009289-b5bc34383727?auto=format&fit=crop&w=800&q=80", description:"Sony noise cancelling headphones" },
+  { id:3, name:"Sony WH-1000XM4 Headphones", price:349, image:"https://tse1.mm.bing.net/th/id/OIP.5h8sVu0_tn5aJt0LrGWOBwHaHa?pid=Api&P=0&h=180", description:"Sony WH1000XM4 Wireless Noise-Cancelling Headphones"},
   { id:4, name:"Samsung 4K Smart TV", price:799, image:"https://tse1.mm.bing.net/th/id/OIP.u10XKPhTk59nswaOskJS0AHaE8?pid=Api&P=0&h=180", description:"Samsung UHD Smart TV 55\"" },
   { id:5, name:"Gaming Mouse RGB", price:49, image:"https://tse2.mm.bing.net/th/id/OIP.lER3YZebzgAqm9sp2AA1kwHaHa?pid=Api&P=0&h=180", description:"Ergonomic gaming mouse with RGB" },
   { id:6, name:"Canon DSLR Camera", price:599, image:"https://tse3.mm.bing.net/th/id/OIP.W1NckwfPbq4yKyKBGOZ_NgHaHa?pid=Api&P=0&h=180", description:"Canon EOS series DSLR" },
@@ -249,3 +249,4 @@ document.addEventListener('DOMContentLoaded', ()=>{
   if(el('wishlist-items')) updateWishlistDisplay();
 
 });
+
